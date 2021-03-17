@@ -1,0 +1,9 @@
+CREATE DATABASE burgers;
+USE burgers;
+
+CREATE TABLE burgers (
+	id INTEGER AUTO_INCREMENT PRIMARY KEY,
+	burger_name VARCHAR(150),
+	devoured BOOLEAN DEFAULT 0,
+	date TIMESTAMP
+);
