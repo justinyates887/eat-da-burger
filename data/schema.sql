@@ -1,6 +1,7 @@
-USE th1n201yvfp1yt7p;
+CREATE burgers;
+USE burgers;
 
-CREATE TABLE th1n201yvfp1yt7p (
+CREATE TABLE burgers (
 	id INTEGER AUTO_INCREMENT PRIMARY KEY,
 	burger_name VARCHAR(150),
 	devoured BOOLEAN DEFAULT 0,
