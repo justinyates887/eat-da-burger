@@ -8,11 +8,11 @@ if (process.env.JAWSDB_URL) {
     console.log('Successfully connected: ' + connection)
 } else {
     connection = mysql.createConnection({
-        host: "frwahxxknm9kwy6c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        host: "mysql://be8733f5cfd88e:11f27829@us-cdbr-east-03.cleardb.com/heroku_e6496fad3f50a24?reconnect=true",
         port: '3306',
         user: "	be8733f5cfd88e",
         password: "	11f27829",
-        database: "	heroku_e6496fad3f50a24"
+        database: "heroku_e6496fad3f50a24"
     });
 };
 
