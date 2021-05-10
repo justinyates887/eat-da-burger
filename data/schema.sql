@@ -1,5 +1,5 @@
-CREATE burgers;
-USE burgers;
+CREATE borger;
+USE borger;
 
 CREATE TABLE burgers (
 	id INTEGER AUTO_INCREMENT PRIMARY KEY,
