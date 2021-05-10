@@ -4,7 +4,7 @@ require("dotenv").config()
 let connection;
 
 if (process.env.JAWSDB_URL) {
-    connection = mysql.createConnection(process.env.JAWSDB_URL);
+    connection = mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
     console.log('Successfully connected: ' + connection)
 } else {
     connection = mysql.createConnection({
